@@ -1,0 +1,8 @@
+<?php 
+
+	function migrate_plus_migration_uninstall() {
+	  db_query("DELETE FROM {config} WHERE name LIKE 'migrate.migration.custom_article%'");
+	  drupal_flush_all_caches();
+	}
+
+?>

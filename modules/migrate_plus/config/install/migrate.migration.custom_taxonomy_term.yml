@@ -1,0 +1,22 @@
+id: custom_taxonomy_term
+label: Custom taxonomy term CSV migration
+dependencies:
+  enforced:
+    module:
+      - migrate_plus
+source:
+  plugin: csv
+  path: '/var/www/drupal8/taxonomy_term.csv'
+  header_rows: 1
+  fields:
+    - id
+    - name
+    - vid
+  keys:
+    - id
+process:
+  tid: id
+  vid: vid
+  name: name
+destination:
+  plugin: entity:taxonomy_term

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\migrate_plus\Unit\CSVFileObjectTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/CSVFileObjectTest.php" tests="4" assertions="9" failures="0" errors="0" time="0.009228">
+    <testcase name="testCreate" class="Drupal\Tests\migrate_plus\Unit\CSVFileObjectTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/CSVFileObjectTest.php" line="37" assertions="2" time="0.003992"/>
+    <testcase name="testHeaderRows" class="Drupal\Tests\migrate_plus\Unit\CSVFileObjectTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/CSVFileObjectTest.php" line="47" assertions="1" time="0.001025"/>
+    <testcase name="testCount" class="Drupal\Tests\migrate_plus\Unit\CSVFileObjectTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/CSVFileObjectTest.php" line="58" assertions="1" time="0.000872"/>
+    <testcase name="testCurrent" class="Drupal\Tests\migrate_plus\Unit\CSVFileObjectTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/CSVFileObjectTest.php" line="72" assertions="5" time="0.003339"/>
+  </testsuite>
+</testsuites>

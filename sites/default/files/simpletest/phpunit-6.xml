@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" tests="7" assertions="18" failures="0" errors="0" time="0.018963">
+    <testcase name="testCreate" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="73" assertions="1" time="0.010164"/>
+    <testcase name="testMigrateExceptionPathMissing" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="81" assertions="2" time="0.001519"/>
+    <testcase name="testMigrateExceptionKeysMissing" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="89" assertions="2" time="0.000908"/>
+    <testcase name="testToString" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="96" assertions="1" time="0.002081"/>
+    <testcase name="testInitializeIterator" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="103" assertions="9" time="0.002186"/>
+    <testcase name="testGetIDs" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="189" assertions="1" time="0.000939"/>
+    <testcase name="testFields" class="Drupal\Tests\migrate_plus\Unit\Plugin\migrate\source\CSVTest" file="/var/www/drupal8/modules/migrate_plus/tests/src/Unit/Plugin/migrate/source/CSVTest.php" line="197" assertions="2" time="0.001166"/>
+  </testsuite>
+</testsuites>

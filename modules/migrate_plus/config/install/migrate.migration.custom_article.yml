@@ -1,0 +1,28 @@
+id: custom_article
+label: Custom article term CSV migration
+dependencies:
+  enforced:
+    module:
+      - migrate_plus
+source:
+  plugin: csv
+  path: '/var/www/drupal8/article.csv'
+  header_rows: 1
+  fields:
+    - type
+    - title
+    - body
+    - teaser
+  keys:
+    - title
+process:
+  type: type
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: "und"
+  title: title
+  'body/value': body
+  'body/summary': teaser
+destination:
+  plugin: entity:node
